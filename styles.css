@@ -1,0 +1,101 @@
+body{
+	font-family: "Truculenta";
+    background: lightgrey;
+    margin:0;
+    padding: 0;
+}
+
+.page_header{
+	display: flex;
+	border-bottom: 1px;
+	border-color: white;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 60px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom: 1px solid black;
+	font-size: larger;
+
+
+}
+
+.page_header > div{
+	display: flex;
+	margin: auto;
+}
+
+.page_header > div h1{
+	padding-right: 0%;
+
+}
+
+.page_header img{
+	height: 100px;
+	padding-left: 20%;
+
+}
+
+
+.container{
+	width: 600px;
+	margin:auto;
+}
+
+article{
+	border: 1px solid black;
+	background: white;
+	margin-bottom: 60px;
+	border-radius: 25px;
+}
+
+article > header{
+	padding:0px 14px;
+}
+
+.post_title{
+	overflow: hidden;
+}
+
+.title_container h2{
+	font-size: 30px;
+}
+
+.post_title > div {
+	width: 50%;
+	float:left;
+}
+
+.date_container{
+	font-size: x-large;
+	text-align: right;
+	color: gray;
+}
+
+.image_container{
+	border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.comment_container{
+	font-size: 20px;
+	padding:0px 24px;
+}
+
+img{
+	max-width: 598px;
+}
+
+span{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.truculenta-Xafiq {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
